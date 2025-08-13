@@ -4,24 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edec2db1-f736-4e46-bcd2-ef26d6464a15" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/CommandIndex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/Executor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/LambdaExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/LambdaTabCompleter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/LibCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/Permissions/BitField.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/Permissions/Flags.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/Predicates/CommandPredicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/io/github/menelbot/commandIndex/Predicates/TabCompletePredicate.java" afterDir="false" />
+    <list default="true" id="edec2db1-f736-4e46-bcd2-ef26d6464a15" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,9 +25,24 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MenelBOT&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MenelBOT/commandIndex.git&quot;,
+    &quot;accountId&quot;: &quot;59508ef0-b93b-4396-be46-89f0460b32be&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="DEPENDENCY_CHECKER_PROBLEMS_TAB" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="31EPnA9og8lZLVZ9BzdNnKLN9Y1" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,11 +51,17 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Maven.commandLib [clean].executor": "Run",
+    "Maven.commandLib [package].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "onboarding.tips.debug.path": "C:/Users/Menel/Desktop/All the stuff/DEV/J/Java/Command Index/src/main/java/io/menelbot/github/Main.java"
+    "onboarding.tips.debug.path": "C:/Users/Menel/Desktop/All the stuff/DEV/J/Java/Command Index/src/main/java/io/menelbot/github/Main.java",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RunManager">
@@ -116,6 +122,30 @@
       <option name="presentableId" value="Default" />
       <updated>1755086424187</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1755094479101</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1755094479101</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
 </project>
