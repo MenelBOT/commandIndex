@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="edec2db1-f736-4e46-bcd2-ef26d6464a15" name="Changes" comment="Initial commit">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="edec2db1-f736-4e46-bcd2-ef26d6464a15" name="Changes" comment="Fix SDK accidentally being set to 24 instead of 21">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,6 +52,7 @@
   "keyToString": {
     "Maven.commandLib [clean].executor": "Run",
     "Maven.commandLib [package].executor": "Run",
+    "Maven.commandLib [verify].executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -130,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755094479101</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Fix SDK accidentally being set to 24 instead of 21">
+      <option name="closed" value="true" />
+      <created>1755102994419</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1755102994419</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +154,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
+    <MESSAGE value="Fix SDK accidentally being set to 24 instead of 21" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix SDK accidentally being set to 24 instead of 21" />
   </component>
 </project>

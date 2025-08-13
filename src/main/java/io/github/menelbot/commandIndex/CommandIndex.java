@@ -24,7 +24,7 @@ public class CommandIndex {
     @ApiStatus.AvailableSince("1.0.0")
     @SuppressWarnings("unused")
     public static void registerCommands(JavaPlugin plugin, LibCommand... libCommands) {
-        Map<String, LibCommand> commandMap = isolatedCommands.computeIfAbsent(plugin, _ -> new HashMap<>());
+        Map<String, LibCommand> commandMap = isolatedCommands.computeIfAbsent(plugin, k -> new HashMap<>());
 
         plugin.getLogger().info(loaded.contains(plugin)
                 ? "Commands loaded already, new commands will shadow if any name collisions happen"
