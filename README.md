@@ -94,13 +94,20 @@ public class FooCommand extends LibCommand {
 ```
 
 ## Registering commands
-Then, to register your command, in your main plugin file, in the onEnable function call the CommandIndex and give it all the command instances you have written
+Then, to register your command, in your main plugin file, in the onEnable function call the CommandIndex and give it all the command instances you have written.
+It's also good practice to unregister the commands when your plugin unloads, just in case it is being reloaded and the server is not shutting down, to avoid nasty shadowing warnings.
 ```java
     public void onEnable() {
         // ...
         CommandIndex.registerCommands(this,
             FooCommand.create() // and all the other commands
         );
+        // ...
+    }
+
+    public void onDisable () {
+        // ...
+        CommandIndex.unregisterAll(this);
         // ...
     }
 ```
